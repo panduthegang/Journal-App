@@ -8,8 +8,52 @@ import "react-quill-new/dist/quill.snow.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Reflct",
-  description: "",
+  title: "Reflct | Your Personal Journaling Space",
+  description: "Transform your thoughts into meaningful insights with AI-powered journaling.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "32x32",
+        type: "image/x-icon",
+      },
+      {
+        url: "/icon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: {
+      url: "/apple-touch-icon.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
+  },
+  manifest: "/manifest.json",
+  themeColor: "#f97316",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://reflct.app",
+    title: "Reflct | Your Personal Journaling Space",
+    description: "Transform your thoughts into meaningful insights with AI-powered journaling.",
+    siteName: "Reflct",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Reflct - Modern Journaling Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Reflct | Your Personal Journaling Space",
+    description: "Transform your thoughts into meaningful insights with AI-powered journaling.",
+    images: ["/twitter-image.jpg"],
+    creator: "@reflct_app",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -42,7 +86,7 @@ export default function RootLayout({ children }) {
 
           <footer className="bg-orange-300 py-12 bg-opacity-10">
             <div className="container mx-auto px-4 text-center text-gray-900">
-              <p>Made with 💗 by RoadsideCoder</p>
+              <p>Made with 💗 by Harsh Rathod</p>
             </div>
           </footer>
         </body>

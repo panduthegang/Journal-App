@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="256" cy="256" r="248" fill="url(#paint0_radial)" stroke="url(#paint1_linear)" stroke-width="16"/>
+  
+  <!-- Book Pages -->
+  <path d="M156 146C156 137.163 163.163 130 172 130H340C348.837 130 356 137.163 356 146V366C356 374.837 348.837 382 340 382H172C163.163 382 156 374.837 156 366V146Z" fill="white"/>
+  
+  <!-- Book Spine -->
+  <path d="M172 130H188V382H172C163.163 382 156 374.837 156 366V146C156 137.163 163.163 130 172 130Z" fill="url(#paint2_linear)"/>
+  
+  <!-- Writing Lines -->
+  <path d="M204 190H308" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+  <path d="M204 230H308" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+  <path d="M204 270H268" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Sparkle Elements -->
+  <path d="M368 160L380 172M380 160L368 172" stroke="#FDBA74" stroke-width="8" stroke-linecap="round"/>
+  <path d="M144 300L156 312M156 300L144 312" stroke="#FDBA74" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="368" cy="280" r="6" fill="#FDBA74"/>
+  <circle cx="144" cy="200" r="6" fill="#FDBA74"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(248)">
+      <stop stop-color="#FED7AA"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="256" y1="0" x2="256" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="172" y1="130" x2="172" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+</svg>
